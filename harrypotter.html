@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="harrypotter.css">
+        <script src="harrypotter.js"></script>
+    </head>
+    <body>
+        <h3>Harry Potter Trivia Quiz</h3>
+        <form id="quiz" name="quiz">
+            <div id="q1">
+                <p>What do you call someone who can speak to serpents?</p>
+                <input type="radio" id="mc" name="q1" value="parseltongue">parseltongue<br>
+                <input type="radio" id="mc" name="q1" value="parselmouth">parselmouth<br>
+                <input type="radio" id="mc" name="q1" value="hisser">hisser<br>
+                <input type="radio" id="mc" name="q1" value="snaketalker">snaketalker<br>
+            </div>
+
+            <div id="q2">
+                <p>What magazine did Luna's father edit?</p>
+                <input type="radio" id="mc" name="q2" value="wizardtimes">The Wizard Times<br>
+                <input type="radio" id="mc" name="q2" value="dailyprophet">The Daily Prophet<br>
+                <input type="radio" id="mc" name="q2" value="quibbler">The Quibbler<br>
+                <input type="radio" id="mc" name="q2" value="quidditch">Quidditch Catalog<br>
+            </div>
+
+            <div id="q3">
+                <p>What is Voldemort's mother's name?</p>
+                <input type="radio" id="mc" name="q3" value="narcissa">Narcissa<br>
+                <input type="radio" id="mc" name="q3" value="rita">Rita<br>
+                <input type="radio" id="mc" name="q3" value="astoria">Astoria<br>
+                <input type="radio" id="mc" name="q3" value="merope">Merope<br>
+            </div>
+
+            <div id="q4">
+                <p>Which of the following is a ghost of Ravenclaw?</p>
+                <input type="radio" id="mc" name="q4" value="greylady">The Grey Lady<br>
+                <input type="radio" id="mc" name="q4" value="nick">Nearly Headless Nick<br>
+                <input type="radio" id="mc" name="q4" value="fatfriar">The Fat Friar<br>
+                <input type="radio" id="mc" name="q4" value="baron">The Bloody Baron<br>
+            </div>
+
+            <div id="q5">
+                <p>What's in the core of Harry's wand?</p>
+                <input type="radio" id="mc" name="q5" value="unicorn">unicorn hair<br>
+                <input type="radio" id="mc" name="q5" value="phoenix">phoenix feather<br>
+                <input type="radio" id="mc" name="q5" value="dragon">dragon heartstring<br>
+                <input type="radio" id="mc" name="q5" value="dittany">dittany<br>
+            </div>
+
+            <div id="q6">
+                <p>What's the name of Fred and George's joke shop?</p>
+                <input type="radio" id="mc" name="q6" value="wheezes">Wizard Wheezes<br>
+                <input type="radio" id="mc" name="q6" value="prank">Prank Central<br>
+                <input type="radio" id="mc" name="q6" value="messes">Magic Messes<br>
+                <input type="radio" id="mc" name="q6" value="hatter">The Mad Hatter<br>
+            </div>
+
+            <div id="q7">
+                <p>Who is Trevor?</p>
+                <input type="radio" id="mc" name="q7" value="bestfriend">Harry's best friend at Hogwarts<br>
+                <input type="radio" id="mc" name="q7" value="brother">Hagrid's brother<br>
+                <input type="radio" id="mc" name="q7" value="father">Hermione's father<br>
+                <input type="radio" id="mc" name="q7" value="toad">Neville's pet toad<br>
+            </div>
+
+            <div id="q8">
+                <p>What does Harry use to breathe underwater?</p>
+                <input type="radio" id="mc" name="q8" value="bezoar">bezoar<br>
+                <input type="radio" id="mc" name="q8" value="mandrake">mandrake root<br>
+                <input type="radio" id="mc" name="q8" value="polyjuice">polyjuice potion<br>
+                <input type="radio" id="mc" name="q8" value="gillyweed">gillyweed<br>
+            </div>
+
+            <div id="q9">
+                <p>What quidditch position does Fred Weasley play?</p>
+                <input type="radio" id="mc" name="q9" value="seeker">seeker<br>
+                <input type="radio" id="mc" name="q9" value="chaser">chaser<br>
+                <input type="radio" id="mc" name="q9" value="beater">beater<br>
+                <input type="radio" id="mc" name="q9" value="keeper">keeper<br>
+            </div>
+
+            <div id="q10">
+                <p>Which of the following animals did Hagrid NOT have as a pet?</p>
+                <input type="radio" id="mc" name="q10" value="thestral">thestral<br>
+                <input type="radio" id="mc" name="q10" value="hippogriff">hippogriff<br>
+                <input type="radio" id="mc" name="q10" value="acromantula">acromantula<br>
+                <input type="radio" id="mc" name="q10" value="boarhound">boarhound<br>
+            </div>
+
+            <input id="button" type="button" value="Check My Answers!" onclick="check();">
+            <br><br>
+
+        </form>
+
+        <div id="after_submit">
+            <div id="getscore"></div>
+            <div id="message"></div>
+        </div>
+    </body>
+</html>

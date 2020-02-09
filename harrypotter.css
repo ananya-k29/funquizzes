@@ -1,0 +1,44 @@
+#after_submit {
+    visibility: hidden;
+}
+
+#q1{
+    background-color: #FFD700;
+    color: red;
+}
+#q2{
+    background-color: #B08D57;
+    color: blue;
+}
+#q3{
+    background-color: #C4CACE;
+    color: green;
+}
+#q4{
+    background-color: yellow;
+    color: black;
+}
+#q5{
+    background-color: #FFD700;
+    color: red;
+}
+#q6{
+    background-color: #B08D57;
+    color: blue;
+}
+#q7{
+    background-color: #C4CACE;
+    color: green;
+}
+#q8{
+    background-color: yellow;
+    color: black;
+}
+#q9{
+    background-color: #FFD700;
+    color: red;
+}
+#q10{
+    background-color: #B08D57;
+    color: blue;
+}
